@@ -1,0 +1,18 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    height: 500px;
+    align-items: center;
+}
+
+.about-img{
+    background: #F2F2F2;
+    text-align: center;
+    padding: 7rem;
+    border-radius: 8px;
+}
+
+.about-img img{
+    width: 100%;
+}

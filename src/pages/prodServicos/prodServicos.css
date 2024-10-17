@@ -1,0 +1,12 @@
+.prodservicos{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.prodservicos-columns{
+    background: #EEEEEE;
+    border-radius: 8px;
+    
+    margin-top: 7rem;
+}

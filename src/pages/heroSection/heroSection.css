@@ -1,0 +1,27 @@
+.heroSection{
+    background: rgb(29, 29, 29);
+    background-image: url(../../assets/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-bottom: 7rem;
+}
+
+.heroText{
+    background: rgba(0, 0, 0, 0);
+    padding-top: 14%;
+    padding-left: 9%;
+    width: 500px;
+    color: #fff;
+    font-weight: 00;
+}
+
+.btn button:nth-child(2){
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btn button:nth-child(2):hover{
+    background:red;
+    border: 1px solid red;
+}

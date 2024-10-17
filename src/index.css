@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Neue Power';
+  src: url('/assets/fonts/NeuePower-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  height:4000px;
+
+}
+
+.section-main{
+  margin: auto;
+  width: 80%;
+}
+
+h1{
+  font-family: 'Neue Power', sans-serif;
+  font-size: 32px;
+}
+
+/*TEMA*/
+
+.tema{
+  text-align: center;
+}
+
+.tema h1{
+  font-size: 42px;
+  margin-top: 7rem;
+}
+
+p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+ h2, h3, h4, h5, h6{
+  font-size: 42px;
+}
+
+.btn button {
+  position: relative;
+  background-color: red;
+  border: none;
+  font-size: 14px;
+  color: #ffffff;
+  height: 49px;
+  border-radius: 5px;
+  width: 160px;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.1s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn button:after {
+  content: "";
+  background: #90aeee;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.btn button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
